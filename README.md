@@ -4,13 +4,12 @@ A polyrhythm metronome built with Electron. Add, remove, or customize different 
 using the neon-themed clock interface with the beats showing up as circles on the orbit and 
 synced audio.
 
-
-
+<br>
 <p align="center">
   <img src="./assets/screenshot1.png" width="45%" alt="Main Interface"/>
   <img src="./assets/screenshot2.png" width="45%" alt="Alternate View or Icon"/>
 </p>
-
+<br>
 
 ---
 
