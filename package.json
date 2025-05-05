@@ -1,0 +1,41 @@
+{
+  "name": "polyrhythm-metronome",
+  "version": "1.4.1",
+  "description": "Circular polyrhythm metronome with neon glow",
+  "author": "Karan",
+  "license": "MIT",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "productName": "Polyrhythm Metronome",
+    "appId": "polyrhythmmetronome",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "!node_modules/**/*",
+      "!dist/**/*"
+    ],
+    "mac": {
+      "icon": "assets/icon.icns",
+      "target": ["dmg","zip"]
+    },
+    "win": {
+      "icon": "assets/icon.ico",
+      "target": ["nsis","zip"]
+    },
+    "linux": {
+      "icon": "assets/icon.png",
+      "target": ["AppImage","deb"]
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^25.0.0",
+    "electron-builder": "^24.0.0"
+  }
+}
