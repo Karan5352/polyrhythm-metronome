@@ -1,8 +1,9 @@
 # Polyrhythm Metronome 🎵
 
-A polyrhythm metrnome built with Electron. Add, remove, or customize different polyrhythms
-via the neon-themed clock interface with the beats showing up as circles on the orbit and 
+A polyrhythm metronome built with Electron. Add, remove, or customize different polyrhythms
+using the neon-themed clock interface with the beats showing up as circles on the orbit and 
 synced audio.
+
 
 <p align="center">
   <img src="./assets/screenshot1.png" width="45%" alt="Main Interface"/>
