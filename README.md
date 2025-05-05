@@ -5,10 +5,12 @@ using the neon-themed clock interface with the beats showing up as circles on th
 synced audio.
 
 
+
 <p align="center">
   <img src="./assets/screenshot1.png" width="45%" alt="Main Interface"/>
   <img src="./assets/screenshot2.png" width="45%" alt="Alternate View or Icon"/>
 </p>
+
 
 ---
 
