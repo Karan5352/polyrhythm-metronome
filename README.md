@@ -32,6 +32,16 @@ Download the latest version from the [Releases Page](https://github.com/Karan535
 |  Windows | `.exe`      | 
 |  Linux   | `.AppImage` | 
 
+If youre on macOS - ARM and see this message:
+
+“Polyrhythm Metronome is damaged and can’t be opened. You should move it to the Trash.”
+
+This happens because the app is not yet signed or notarized by Apple.  
+You can safely bypass this warning by running the following command in Terminal:
+
+```bash
+xattr -cr /Applications/Polyrhythm\ Metronome.app
+
 ---
 
 ## Manual Setup
