@@ -41,6 +41,7 @@ You can safely bypass this warning by running the following command in Terminal:
 
 ```bash
 xattr -cr /Applications/Polyrhythm\ Metronome.app
+```
 
 ---
 
