@@ -71,4 +71,5 @@ npm start
 ```bash
 npm run dist
 ```
+For Windows, run as Administrator.
 ---
